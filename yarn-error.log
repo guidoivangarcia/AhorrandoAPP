@@ -1,0 +1,80 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js install
+
+PATH: 
+  C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\AMD APP\bin\x86_64;C:\Program Files (x86)\AMD APP\bin\x86;C:\Users\Guido\Documents\AMD APP\bin\x86_64;C:\Users\Guido\Documents\AMD APP\bin\x86;C:\zpanel\bin\apache\bin;C:\zpanel\bin\mysql\bin;C:\zpanel\bin\php;C:\zpanel\bin\wget;C:\zpanel\bin\bind\bin;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;c:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Autodesk\Backburner\;C:\RailsInstaller\Git\cmd;C:\RailsInstaller\Ruby1.9.3\bin;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\BC5\BIN;C:\Users\Guido\AppData\Roaming\npm;C:\AppServ\Apache2.2\bin;C:\AppServ\php5;C:\AppServ\MySQL\bin;C:\Program Fi;C:\Program Files (x86)\AMD\ATI.ACE\Core-Static;C:\Program Files (x86)\Microsoft SQL Server\90\Tools\binn\;C:\Windows\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\nodejs\;C:\RailsInstaller\Git\cmd;C:\RailsInstaller\Ruby1.9.3\bin;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\BC5\BIN;C:\AppServ\Apache2.2\bin;C:\AppServ\php5;C:\AppServ\MySQL\bin;C:\Program Files (x86)\Nmap;C:\Users\Guido\AppData\Local\Programs\Fiddler;C:\Users\Guido\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Guido\AppData\Local\Yarn\bin;C:\Users\Guido\AppData\Roaming\npm
+
+Yarn version: 
+  1.19.1
+
+Node version: 
+  10.16.3
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, lstat 'C:\Users\Guido\AppData\Local\Yarn\Cache\v6\npm-core-js-2.6.10-8a5b8391f8cc7013da703411ce5b585706300d7f-integrity\node_modules\core-js\.yarn-tarball.tgz'
+
+npm manifest: 
+  {
+    "name": "argon-react-native",
+    "version": "1.2.0",
+    "description": "Argon React Native, based on Argon Design System. Coded by Creative Tim",
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "eject": "expo eject"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/creativetimofficial/argon-react-native.git"
+    },
+    "dependencies": {
+      "expo": "^34.0.3",
+      "expo-asset": "^6.0.0",
+      "expo-font": "^6.0.1",
+      "galio-framework": "^0.6.1",
+      "prop-types": "^15.7.2",
+      "react": "16.8.3",
+      "react-native": "https://github.com/expo/react-native/archive/sdk-34.0.0.tar.gz",
+      "react-native-gesture-handler": "^1.3.0",
+      "react-native-modal-dropdown": "^0.6.2",
+      "react-navigation": "^3.11.0"
+    },
+    "devDependencies": {
+      "babel-preset-expo": "^5.0.0"
+    },
+    "keywords": [
+      "argon react native",
+      "argon design system",
+      "argon app react native",
+      "argon iOS",
+      "react native iOS",
+      "creative tim",
+      "argon Android",
+      "react native ui kit",
+      "react native expo",
+      "freebie",
+      "react native argon design",
+      "react native galio",
+      "galio argon free",
+      "galio react native free app",
+      "argon expo react native",
+      "react native ui template"
+    ],
+    "author": "Creative Tim <hello@creative-tim.com> (https://www.creative-tim.com/)",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/creativetimofficial/argon-react-native/issues"
+    },
+    "homepage": "https://demos.creative-tim.com/argon-react-native"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
