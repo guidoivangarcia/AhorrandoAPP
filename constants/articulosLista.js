@@ -100,5 +100,41 @@ export default [
     image: 'https://www.campoluzenoteca.com/3025-thickbox_default/smirnoff-red-label.jpg',
     cta: 'Ver Producto', 
     cantidad: 0
+  },
+  {
+    title: 'Espadol Dettol Jabón de tocador ',
+    image: 'https://media-services.digital-rb.com/s3/live-productcatalogue/sys-master/images/h94/hfb/8807016923166/EAN%207791130052771.jpg?width=1280&height=1280',
+    cta: 'Ver Producto', 
+    cantidad: 0
+  },
+  {
+    title: 'Pantene Pro V Long Black Shampoo',
+    image: 'https://5.imimg.com/data5/DX/LE/MY-7830059/pantene-pro-v-long-black-shampoo-500x500.jpg',
+    cta: 'Ver Producto', 
+    cantidad: 0
+  },
+  {
+    title: 'GILLETTE MACH3 MÁQUINA PARA AFEITAR RECARGABLE',
+    image: 'https://images-na.ssl-images-amazon.com/images/I/81X-boSq7wL._SX466_.jpg',
+    cta: 'Ver Producto', 
+    cantidad: 0
+  },
+  {
+    title: 'Enjuague Bucal Colgate Plax Ice Zero Alcohol 60ml',
+    image: 'https://jumbocolombiafood.vteximg.com.br/arquivos/ids/206225-1000-1000/7891024136089-1.jpg?v=636287518454930000',
+    cta: 'Ver Producto', 
+    cantidad: 0
+  },
+  {
+    title: 'Aquafresh Triple Proteccion 125ml',
+    image: 'https://www.wilko.com/assets/bWFzdGVyfGltYWdlc3w1NjU5MnxpbWFnZS9qcGVnfGltYWdlcy9oM2MvaGY3Lzg4MjQ0NDUyMzkzMjYuanBnfGJlNTU5OWE2ZWVkZWIyMzY2NjM0NDc5MzNkZDQ5YTYxZGFkYWY3NjMxNGM5NDU0YTg5MzE4ODczYWZmNTg3ZDk=/0462393-1.jpg',
+    cta: 'Ver Producto', 
+    cantidad: 0
+  },
+  {
+    title: 'Desodorante Axe ice chill men frozen lima aerosol x 150 ml',
+    image: 'https://jumbocolombiafood.vteximg.com.br/arquivos/ids/3425805-750-750/7506306213906.jpg?v=636940492399200000',
+    cta: 'Ver Producto', 
+    cantidad: 0
   }
 ];

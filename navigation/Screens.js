@@ -22,6 +22,7 @@ import Articles from "../screens/Articles";
 import ListaDeCompras from "../screens/ListaDeCompras";
 import ListasGuardadas from "../screens/ListasGuardadas";
 import ListaDeComprasAlcohol from "../screens/ListaDeComprasAlcohol";
+import ListaDeComprasCuidadoPersonal from "../screens/ListaDeComprasCuidadoPersonal";
 import MapaTiendas from "../screens/MapOnly";
 // drawer
 import Menu from "./Menu";
@@ -230,11 +231,29 @@ const HomeStack = createStackNavigator(
     transitionConfig
   }
 );
-// divideru se baga ca si cum ar fi un ecrna dar nu-i nimic duh
+
 const ListaDeComprasAlcoholStack = createStackNavigator(
   {
     ListaDeComprasAlcohol: {
       screen: ListaDeComprasAlcohol,
+      navigationOptions: ({ navigation }) => ({
+        header: (
+          <Header white transparent title="" iconColor={'#FFF'} navigation={navigation} />
+        ),
+        headerTransparent: true
+      })
+    }
+  },
+  {
+    cardStyle: { backgroundColor: "#FFFFFF" },
+    transitionConfig
+  }
+);
+
+const ListaDeComprasCuidadoPersonalStack = createStackNavigator(
+  {
+    ListaDeComprasCuidadoPersonal: {
+      screen: ListaDeComprasCuidadoPersonal,
       navigationOptions: ({ navigation }) => ({
         header: (
           <Header white transparent title="" iconColor={'#FFF'} navigation={navigation} />
@@ -339,6 +358,12 @@ const AppStack = createDrawerNavigator(
     },
     ListaDeComprasAlcohol: {
       screen: ListaDeComprasAlcoholStack,
+      navigationOptions: {
+        drawerLabel: () => {}
+      }
+    },
+    ListaDeComprasCuidadoPersonal: {
+      screen: ListaDeComprasCuidadoPersonalStack,
       navigationOptions: {
         drawerLabel: () => {}
       }

@@ -111,7 +111,7 @@ class Home extends React.Component {
             </TouchableOpacity>
 
 
-            <TouchableOpacity onPress={() => navigation.navigate("ListaDeCompras")}>
+            <TouchableOpacity onPress={() => navigation.navigate("ListaDeComprasCuidadoPersonal")}>
               <Image
                 style={{ width: 191, height: 100 }}
                 source={{ uri: 'https://i.ibb.co/mckfRYX/Cuidado-Personal.png' }}
