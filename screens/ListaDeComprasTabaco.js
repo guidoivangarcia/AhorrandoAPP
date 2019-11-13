@@ -70,11 +70,11 @@ class ListaDeComprasTabaco extends React.Component {
         {
           text: 'No',
           onPress: () => 
-            Alert.alert("Precio calculado", "El local mas barato es Carrefour \nesta a 0.9 Km de tu Ubicación Actual", [
+            Alert.alert("Precio calculado", "El local mas barato es Dia% \nesta a 1.6 Km de tu Ubicación Actual", [
               {    
                 text: "Generar Ruta",
                 //onPress: () => this.setState({isAlertVisible:true})
-                onPress: () => navigate("RutaMapa"),
+                onPress: () => navigate("RutaMapa2"),
               }
             ]),
           style: 'cancel',

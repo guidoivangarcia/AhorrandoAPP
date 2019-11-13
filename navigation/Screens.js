@@ -18,6 +18,7 @@ import Registro from "../screens/Registro";
 import Recuperar from "../screens/Recuperar";
 import Elements from "../screens/Elements";
 import MapDirections from "../screens/MapDirections";
+import MapDirections2 from "../screens/MapDirections2";
 import Articles from "../screens/Articles";
 import ListaDeCompras from "../screens/ListaDeCompras";
 import ListasGuardadas from "../screens/ListasGuardadas";
@@ -177,6 +178,24 @@ const RutaMapaStack = createStackNavigator(
   {
     RutaMapa: {
       screen: MapDirections,
+      navigationOptions: ({ navigation }) => ({
+        header: (
+          <Header white transparent title="Mapa" iconColor={'#FFF'} navigation={navigation} />
+        ),
+        headerTransparent: true
+      })
+    }
+  },
+  {
+    cardStyle: { backgroundColor: "#FFFFFF" },
+    transitionConfig
+  }
+);
+
+const RutaMapa2Stack = createStackNavigator(
+  {
+    RutaMapa: {
+      screen: MapDirections2,
       navigationOptions: ({ navigation }) => ({
         header: (
           <Header white transparent title="Mapa" iconColor={'#FFF'} navigation={navigation} />
@@ -404,6 +423,12 @@ const AppStack = createDrawerNavigator(
     },
     RutaMapa: {
       screen: RutaMapaStack,
+      navigationOptions: {
+        drawerLabel: () => {}
+      }
+    },
+    RutaMapa2: {
+      screen: RutaMapa2Stack,
       navigationOptions: {
         drawerLabel: () => {}
       }
