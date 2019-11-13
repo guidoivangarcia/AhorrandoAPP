@@ -6,7 +6,7 @@ import articles from '../constants/articulosLista';
 import DialogInput from 'react-native-dialog-input';
 const { width } = Dimensions.get('screen');
 
-class ListaDeComprasCuidadoPersonal extends React.Component {
+class ListaDeComprasTabaco extends React.Component {
   constructor(props) {
     super(props);
     this.state = { isAlertVisible:false };
@@ -23,21 +23,22 @@ class ListaDeComprasCuidadoPersonal extends React.Component {
         <Block flex>
           {/* <Card item={articles[0]} horizontal  /> */}
           <Block flex row>
-            <Card item={articles[17]} style={{ marginRight: theme.SIZES.BASE }} >
+            <Card item={articles[39]} style={{ marginRight: theme.SIZES.BASE }} >
             </Card>
-            <Card item={articles[18]} />
-            
-
+            <Card item={articles[40]} />
           </Block>
           <Block flex row>
-            <Card item={articles[19]} style={{ marginRight: theme.SIZES.BASE }} >
+            <Card item={articles[41]} style={{ marginRight: theme.SIZES.BASE }} >
             </Card>
-            <Card item={articles[20]} />
-
+            <Card item={articles[42]} />
           </Block>
-          <Block flex row  style={{ paddingBottom: 300 }}>
-            <Card item={articles[21]} style={{ marginRight: theme.SIZES.BASE }} />
-            <Card item={articles[22]} />
+          <Block flex row>
+            <Card item={articles[43]} style={{ marginRight: theme.SIZES.BASE }} />
+            <Card item={articles[44]} />
+          </Block>
+          <Block flex row  style={{ paddingBottom: 310 }}>
+            <Card item={articles[45]} style={{ marginRight: theme.SIZES.BASE }} />
+            <Card item={articles[46]} />
           </Block>
 
           {/* <Card item={articles[3]} horizontal />
@@ -126,4 +127,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default ListaDeComprasCuidadoPersonal;
+export default ListaDeComprasTabaco;

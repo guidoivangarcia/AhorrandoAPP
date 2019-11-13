@@ -6,7 +6,7 @@ import articles from '../constants/articulosLista';
 import DialogInput from 'react-native-dialog-input';
 const { width } = Dimensions.get('screen');
 
-class ListaDeComprasCuidadoPersonal extends React.Component {
+class ListaDeComprasLimpieza extends React.Component {
   constructor(props) {
     super(props);
     this.state = { isAlertVisible:false };
@@ -23,21 +23,21 @@ class ListaDeComprasCuidadoPersonal extends React.Component {
         <Block flex>
           {/* <Card item={articles[0]} horizontal  /> */}
           <Block flex row>
-            <Card item={articles[17]} style={{ marginRight: theme.SIZES.BASE }} >
+            <Card item={articles[33]} style={{ marginRight: theme.SIZES.BASE }} >
             </Card>
-            <Card item={articles[18]} />
+            <Card item={articles[34]} />
             
 
           </Block>
           <Block flex row>
-            <Card item={articles[19]} style={{ marginRight: theme.SIZES.BASE }} >
+            <Card item={articles[35]} style={{ marginRight: theme.SIZES.BASE }} >
             </Card>
-            <Card item={articles[20]} />
+            <Card item={articles[36]} />
 
           </Block>
           <Block flex row  style={{ paddingBottom: 300 }}>
-            <Card item={articles[21]} style={{ marginRight: theme.SIZES.BASE }} />
-            <Card item={articles[22]} />
+            <Card item={articles[37]} style={{ marginRight: theme.SIZES.BASE }} />
+            <Card item={articles[38]} />
           </Block>
 
           {/* <Card item={articles[3]} horizontal />
@@ -126,4 +126,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default ListaDeComprasCuidadoPersonal;
+export default ListaDeComprasLimpieza;

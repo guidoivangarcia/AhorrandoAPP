@@ -23,6 +23,10 @@ import ListaDeCompras from "../screens/ListaDeCompras";
 import ListasGuardadas from "../screens/ListasGuardadas";
 import ListaDeComprasAlcohol from "../screens/ListaDeComprasAlcohol";
 import ListaDeComprasCuidadoPersonal from "../screens/ListaDeComprasCuidadoPersonal";
+import ListaDeComprasKiosco from "../screens/ListaDeComprasKiosco";
+import ListaDeComprasMascotas from "../screens/ListaDeComprasMascotas";
+import ListaDeComprasLimpieza from "../screens/ListaDeComprasLimpieza";
+import ListaDeComprasTabaco from "../screens/ListaDeComprasTabaco";
 import MapaTiendas from "../screens/MapOnly";
 // drawer
 import Menu from "./Menu";
@@ -268,6 +272,76 @@ const ListaDeComprasCuidadoPersonalStack = createStackNavigator(
   }
 );
 
+const ListaDeComprasKioscoStack = createStackNavigator(
+  {
+    ListaDeComprasKiosco: {
+      screen: ListaDeComprasKiosco,
+      navigationOptions: ({ navigation }) => ({
+        header: (
+          <Header white transparent title="" iconColor={'#FFF'} navigation={navigation} />
+        ),
+        headerTransparent: true
+      })
+    }
+  },
+  {
+    cardStyle: { backgroundColor: "#FFFFFF" },
+    transitionConfig
+  }
+);
+
+const ListaDeComprasMascotasStack = createStackNavigator(
+  {
+    ListaDeComprasMascotas: {
+      screen: ListaDeComprasMascotas,
+      navigationOptions: ({ navigation }) => ({
+        header: (
+          <Header white transparent title="" iconColor={'#FFF'} navigation={navigation} />
+        ),
+        headerTransparent: true
+      })
+    }
+  },
+  {
+    cardStyle: { backgroundColor: "#FFFFFF" },
+    transitionConfig
+  }
+);
+const ListaDeComprasLimpiezaStack = createStackNavigator(
+  {
+    ListaDeComprasLimpieza: {
+      screen: ListaDeComprasLimpieza,
+      navigationOptions: ({ navigation }) => ({
+        header: (
+          <Header white transparent title="" iconColor={'#FFF'} navigation={navigation} />
+        ),
+        headerTransparent: true
+      })
+    }
+  },
+  {
+    cardStyle: { backgroundColor: "#FFFFFF" },
+    transitionConfig
+  }
+);
+
+const ListaDeComprasTabacoStack = createStackNavigator(
+  {
+    ListaDeComprasTabaco: {
+      screen: ListaDeComprasTabaco,
+      navigationOptions: ({ navigation }) => ({
+        header: (
+          <Header white transparent title="" iconColor={'#FFF'} navigation={navigation} />
+        ),
+        headerTransparent: true
+      })
+    }
+  },
+  {
+    cardStyle: { backgroundColor: "#FFFFFF" },
+    transitionConfig
+  }
+);
 
 const AppStack = createDrawerNavigator(
   {
@@ -364,6 +438,30 @@ const AppStack = createDrawerNavigator(
     },
     ListaDeComprasCuidadoPersonal: {
       screen: ListaDeComprasCuidadoPersonalStack,
+      navigationOptions: {
+        drawerLabel: () => {}
+      }
+    },
+    ListaDeComprasKiosco: {
+      screen: ListaDeComprasKioscoStack,
+      navigationOptions: {
+        drawerLabel: () => {}
+      }
+    },
+    ListaDeComprasMascotas: {
+      screen: ListaDeComprasMascotasStack,
+      navigationOptions: {
+        drawerLabel: () => {}
+      }
+    },
+    ListaDeComprasLimpieza: {
+      screen: ListaDeComprasLimpiezaStack,
+      navigationOptions: {
+        drawerLabel: () => {}
+      }
+    },
+    ListaDeComprasTabaco: {
+      screen: ListaDeComprasTabacoStack,
       navigationOptions: {
         drawerLabel: () => {}
       }

@@ -156,6 +156,22 @@ class Header extends React.Component {
           return ([
             <GoBackButtonListas key='nav-left' navigation={navigation} isWhite={white} />
           ]);
+      case 'ListaDeComprasKiosco':
+        return ([
+          <GoBackButtonListas key='nav-left' navigation={navigation} isWhite={white} />
+        ]);
+      case 'ListaDeComprasMascotas':
+        return ([
+          <GoBackButtonListas key='nav-left' navigation={navigation} isWhite={white} />
+        ]);
+      case 'ListaDeComprasLimpieza':
+        return ([
+          <GoBackButtonListas key='nav-left' navigation={navigation} isWhite={white} />
+        ]);
+        case 'ListaDeComprasTabaco':
+        return ([
+          <GoBackButtonListas key='nav-left' navigation={navigation} isWhite={white} />
+        ]);
       default:
         break;
     }

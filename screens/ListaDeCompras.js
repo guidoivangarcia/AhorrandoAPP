@@ -28,8 +28,7 @@ class ListaDeCompras extends React.Component {
             <Card item={articles[1]} style={{ marginRight: theme.SIZES.BASE }} >
             </Card>
             <Card item={articles[2]} />
-            
-
+ 
           </Block>
           <Block flex row>
             <Card item={articles[3]} style={{ marginRight: theme.SIZES.BASE }} >

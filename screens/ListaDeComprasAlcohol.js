@@ -3,10 +3,18 @@ import { ActivityIndicator, StyleSheet, Alert, Dimensions, ScrollView } from 're
 import { Button, Block, theme } from 'galio-framework';
 import { Card, Text, Body, CardItem, Header } from '../components';
 import articles from '../constants/articulosLista';
+import DialogInput from 'react-native-dialog-input';
 const { width } = Dimensions.get('screen');
 
 class ListaDeComprasAlcohol extends React.Component {
-  
+  constructor(props) {
+    super(props);
+    this.state = { isAlertVisible:false };
+  }
+  submit(inputText){
+    console.log(inputText);
+    this.setState({isAlertVisible:false})
+  }
   renderArticles = () => {
     return (
       <ScrollView
@@ -64,12 +72,13 @@ class ListaDeComprasAlcohol extends React.Component {
             Alert.alert("Precio calculado", "El local mas barato es Carrefour \nesta a 0.9 Km de tu Ubicación Actual", [
               {    
                 text: "Generar Ruta",
-                onPress: () => navigate("RutaMapa")
+                //onPress: () => this.setState({isAlertVisible:true})
+                onPress: () => navigate("RutaMapa"),
               }
             ]),
           style: 'cancel',
         },
-        {text: 'Si', onPress: () => navigate("GuardarLista")}, // Esta pantalla no esta creada
+        {text: 'Si', onPress: () => this.setState({isAlertVisible:true})}, // Esta pantalla no esta creada
       ],
       {cancelable: false},
     );
@@ -86,6 +95,17 @@ class ListaDeComprasAlcohol extends React.Component {
       </Block>
         {this.renderArticles()}
         <Block flex center style={styles.boton}>
+          <DialogInput isDialogVisible={this.state.isAlertVisible}
+                     title={"Guardar Lista"}
+                     message={"Ingrese el nombre de su Lista de Compras"}
+                     hintInput ={"hint for the input"}
+                     submitInput={ (inputText) => {this.submit(inputText)
+                    //, 
+                    // this.setState({isAlertVisible:false}),this.navegar()  } 
+                                                  }
+                                }
+                     closeDialog={ () =>this.setState({isAlertVisible:false})}>
+         </DialogInput>
           <Button onPress={() => this.button()} round size="small" color="success">Comparar Tiendas</Button>
         </Block>
       </Block>

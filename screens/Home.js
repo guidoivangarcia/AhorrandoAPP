@@ -101,7 +101,7 @@ class Home extends React.Component {
 
           <Block row style={{justifyContent:'space-between'}}>
 
-            <TouchableOpacity onPress={() => navigation.navigate("ListaDeCompras")}>
+            <TouchableOpacity onPress={() => navigation.navigate("ListaDeComprasKiosco")}>
 
               <Image
                 style={{ width: 191, height: 100 }}
@@ -120,7 +120,7 @@ class Home extends React.Component {
           </Block>
           <Block row style={{justifyContent:'space-between'}}>
 
-            <TouchableOpacity onPress={() => navigation.navigate("ListaDeCompras")}>
+            <TouchableOpacity onPress={() => navigation.navigate("ListaDeComprasLimpieza")}>
 
               <Image
                 style={{ width: 191, height: 100 }}
@@ -130,7 +130,7 @@ class Home extends React.Component {
             </TouchableOpacity>
 
 
-            <TouchableOpacity onPress={() => navigation.navigate("ListaDeCompras")}>
+            <TouchableOpacity onPress={() => navigation.navigate("ListaDeComprasMascotas")}>
               <Image
                 style={{ width: 191, height: 100 }}
                 source={{ uri: 'https://i.ibb.co/yXShDL8/Mascotas.png' }}
@@ -150,7 +150,7 @@ class Home extends React.Component {
             </TouchableOpacity>
 
 
-            <TouchableOpacity onPress={() => navigation.navigate("ListaDeCompras")}>
+            <TouchableOpacity onPress={() => navigation.navigate("ListaDeComprasTabaco")}>
               <Image
                 style={{ width: 191, height: 100 }}
                 source={{ uri: 'https://i.ibb.co/TwM5nSd/tabaco.png' }}
