@@ -27,6 +27,7 @@ import ListaDeComprasKiosco from "../screens/ListaDeComprasKiosco";
 import ListaDeComprasMascotas from "../screens/ListaDeComprasMascotas";
 import ListaDeComprasLimpieza from "../screens/ListaDeComprasLimpieza";
 import ListaDeComprasTabaco from "../screens/ListaDeComprasTabaco";
+import ListaDeComprasBebes from "../screens/ListaDeComprasBebes";
 import MapaTiendas from "../screens/MapOnly";
 // drawer
 import Menu from "./Menu";
@@ -343,6 +344,24 @@ const ListaDeComprasTabacoStack = createStackNavigator(
   }
 );
 
+const ListaDeComprasBebesStack = createStackNavigator(
+  {
+    ListaDeComprasBebes: {
+      screen: ListaDeComprasBebes,
+      navigationOptions: ({ navigation }) => ({
+        header: (
+          <Header white transparent title="" iconColor={'#FFF'} navigation={navigation} />
+        ),
+        headerTransparent: true
+      })
+    }
+  },
+  {
+    cardStyle: { backgroundColor: "#FFFFFF" },
+    transitionConfig
+  }
+);
+
 const AppStack = createDrawerNavigator(
   {
     Onboarding: {
@@ -462,6 +481,12 @@ const AppStack = createDrawerNavigator(
     },
     ListaDeComprasTabaco: {
       screen: ListaDeComprasTabacoStack,
+      navigationOptions: {
+        drawerLabel: () => {}
+      }
+    },
+    ListaDeComprasBebes: {
+      screen: ListaDeComprasBebesStack,
       navigationOptions: {
         drawerLabel: () => {}
       }

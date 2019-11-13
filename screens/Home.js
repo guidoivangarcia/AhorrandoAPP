@@ -140,7 +140,7 @@ class Home extends React.Component {
 
           <Block row style={{justifyContent:'space-between'}}>
 
-            <TouchableOpacity onPress={() => navigation.navigate("ListaDeCompras")}>
+            <TouchableOpacity onPress={() => navigation.navigate("ListaDeComprasBebes")}>
 
               <Image
                 style={{ width: 191, height: 100 }}

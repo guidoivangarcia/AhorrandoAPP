@@ -280,5 +280,41 @@ export default [
     image: 'https://nuevabotella.com/wp-content/uploads/2018/12/lucky-strike-blue.png',
     cta: 'Ver Producto', 
     cantidad: 0
+  },
+  {
+    title: 'Pañales Huggies Active Sec Baby Pants M 16 Unid ',
+    image: 'https://http2.mlstatic.com/panales-huggies-active-sec-baby-pants-m-16-unid-g-14-unid-D_NQ_NP_818001-MLA31499112393_072019-Q.jpg',
+    cta: 'Ver Producto', 
+    cantidad: 0
+  },
+  {
+    title: 'PAÑALES HUGGIES NATURAL CARE ETAPA 4 X 50UND',
+    image: 'https://locatelcolombia.vteximg.com.br/arquivos/ids/208611-1000-1000/7702425807495_PA%C3%91ALES-HUGGIES-NATURAL-CARE-ETAPA-4-X-50UND-.png?v=636864703334430000',
+    cta: 'Ver Producto', 
+    cantidad: 0
+  },
+  {
+    title: 'PAÑALES PEQUEÑIN EXTRAPROTECCIÓN ETAPA 1 X 30UND',
+    image: 'https://locatelcolombia.vteximg.com.br/arquivos/ids/212865-1000-1000/7707181105922_1_PA%C3%91ALES-PEQUE%C3%91IN-EXTRAPROTECCION-ETAPA-1-X-30UND.png?v=636964879149270000',
+    cta: 'Ver Producto', 
+    cantidad: 0
+  },
+  {
+    title: 'Pañal Kleenbebe Suavelastic Chico 40 pzs',
+    image: 'https://www.chedraui.com.mx/medias/7501943434622-00-CH515Wx515H?context=bWFzdGVyfHJvb3R8NDU3MzB8aW1hZ2UvanBlZ3xoYjYvaDIwLzk1ODQ3MjEyNjQ2NzAuanBnfDgxMzMyYTdiZGE4YjRkODdhY2FiYzUyYzRjMDA5MzQ0MTEwN2VmMjUxZGRkOGE5MmE5NDc2ZWM4ZTRmNzMxNTM',
+    cta: 'Ver Producto', 
+    cantidad: 0
+  },
+  {
+    title: 'Chupete De Silicona Cibay',
+    image: 'https://sc02.alicdn.com/kf/HTB1aMrDkAKWBuNjy1zjq6AOypXax/L-C-Baby-Product-Supplier-Silicone-Soother.jpg_350x350.jpg',
+    cta: 'Ver Producto', 
+    cantidad: 0
+  },
+  {
+    title: 'Mamadera Natelle Mickey 125 ml. Talle S',
+    image: 'http://pinataweb.com.ar/uploads/imagenes/productos/597a67b4b7a5e.jpg',
+    cta: 'Ver Producto', 
+    cantidad: 0
   }
 ];
