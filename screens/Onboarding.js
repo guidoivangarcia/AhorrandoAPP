@@ -38,7 +38,7 @@ class Onboarding extends React.Component {
                   </Text>
                 </Block> */}
                 <Block>
-                  <Text color="white" size={75}>
+                  <Text color="white" size={65}>
                     Bienvenido
                   </Text>
                 </Block>

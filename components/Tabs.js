@@ -18,7 +18,7 @@ const defaultMenu = [
 
 export default class Tabs extends React.Component {
   static defaultProps = {
-    data: defaultMenu,
+    data: [],
     initialIndex: null,
   }
 

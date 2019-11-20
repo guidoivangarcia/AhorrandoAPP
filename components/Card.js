@@ -136,8 +136,8 @@ const styles = StyleSheet.create({
   cantidad: {
     flex: 1,
     flexDirection: 'row',
-    paddingLeft:55,
-    paddingRight:50,
+    paddingLeft:40,
+    paddingRight:40,
     paddingTop:12
   },
   cantidadTexto: {

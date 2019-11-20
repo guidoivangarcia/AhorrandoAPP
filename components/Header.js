@@ -233,8 +233,8 @@ class Header extends React.Component {
       return (
         <Block center>
           {search ? this.renderSearch() : null}
-          {options ? this.renderOptions() : null}
-          {tabs ? this.renderTabs() : null}
+          {/* {options ? this.renderOptions() : null} */}
+          {/* {tabs ? this.renderTabs() : null} */}
         </Block>
       );
     }

@@ -21,7 +21,7 @@ export default [
     title: 'Leche La Serenisima entera 1L',
     image: 'https://ardiaqa.vteximg.com.br/arquivos/ids/185690-1000-1000/LECHE-ENTERA-BOTELLA-LA-SERENISIMA-1LT.jpg?v=636743986273900000',
     cta: 'Ver Producto', 
-    cantidad: 3
+    cantidad: 0
   },
   {
     title: 'Arvejas la Campagnola 350g',
